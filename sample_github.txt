@@ -14,7 +14,7 @@ Different file formats: JSON, XML, CSV — need normalization
 🛠 Use Delta Lake for schema evolution, Spark for transformation, and watermark logic to manage late data.
 
 
-dataframe.Column
+dataframe.Column/Schema
 
 Branch
 
