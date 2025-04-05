@@ -1,0 +1,22 @@
+5️⃣ What challenges do you face in processing sales data from multiple sources (SAP, POS, APIs)?
+✅ Answer:
+
+Schema mismatch: One source may have "customer_id", another "cust_id"
+
+Timezone differences: Timestamps in different formats/zones
+
+Late arriving data: Sales might arrive late from slow APIs
+
+Duplicate data: Especially if APIs are polled multiple times
+
+Different file formats: JSON, XML, CSV — need normalization
+
+🛠 Use Delta Lake for schema evolution, Spark for transformation, and watermark logic to manage late data.
+
+
+dataframe.Column
+
+Branch
+
+NEW notebook --> dev --> UAT
+
